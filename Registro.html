@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario de registro - Mi web</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+}
+
+form{
+    width:700px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+h1{
+    text-align:center;
+}
+
+label{
+    display:block;
+    margin-top:10px;
+}
+
+input, select{
+    width:100%;
+    padding:8px;
+}
+
+button{
+    margin-top:15px;
+    width:100%;
+    padding:10px;
+}
+</style>
+</head>
+<body>
+
+<form action="#" method="get">
+
+<h1>Formulario de Registro</h1>
+
+<label>Nombre</label>
+<input type="text" name="nombre" required>
+
+<label>Apellido</label>
+<input type="text" name="apellido" required>
+
+<label>Sexo</label>
+<input type="radio" name="sexo" value="Hombre"> Hombre
+<input type="radio" name="sexo" value="Mujer"> Mujer
+
+<label>Correo Electrónico</label>
+<input type="email" name="correo" required>
+
+<br><br>
+
+<input type="checkbox" checked>
+Deseo recibir información sobre novedades y ofertas
+
+<br><br>
+
+<input type="checkbox" required>
+Declaro haber leído y acepto las condiciones generales del programa y la normativa sobre protección de datos
+
+<br><br>
+
+<a href="#">Ver condiciones generales</a>
+
+<label>País</label>
+<select>
+<option selected>Argentina</option>
+<option>Bolivia</option>
+<option>Brasil</option>
+<option>Chile</option>
+<option>Colombia</option>
+<option>Ecuador</option>
+<option>Guyana</option>
+<option>Paraguay</option>
+<option>Perú</option>
+<option>Surinam</option>
+<option>Uruguay</option>
+<option>Venezuela</option>
+</select>
+
+<label>Contraseña</label>
+<input type="password" required>
+
+<label>Repetir Contraseña</label>
+<input type="password" required>
+
+<label>Estado Civil</label>
+<select>
+<option selected>Soltero</option>
+<option>Casado</option>
+<option>Divorciado</option>
+<option>Viudo</option>
+</select>
+
+<label>Provincia</label>
+<input type="text">
+
+<label>Localidad</label>
+<input type="text">
+
+<label>Dirección</label>
+<input type="text">
+
+<label>Número</label>
+<input type="number">
+
+<label>Departamento</label>
+<input type="text">
+
+<button type="submit">Enviar</button>
+
+</form>
+
+</body>
+</html>
